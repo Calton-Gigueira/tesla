@@ -18,5 +18,5 @@ export const elements = [
     sup: 4,
     text: "Price before estimated savings is $77,990, excluding taxes and fees. Subject to change.",
     link: "Learn about est. gas savings.",
-  },
+  }, 
 ];

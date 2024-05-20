@@ -7,7 +7,7 @@ function renderFooter(elements) {
 
 	elements.map((el) => {
 		html = `
-			<div>
+			<div> 
           <p>
             <sup>${el.sup}</sup> 
             ${el.text} ${el.sup === 1 ? '<a href="#" style="text-decoration: underline">Est. gas savings</a>' : ''}

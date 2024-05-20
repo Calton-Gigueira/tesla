@@ -5,7 +5,7 @@ const models = document.querySelector('.models');
 function renderModels(data) {
 	let html;
 
-	data.map((el) => {
+	data.map((el) => { 
 		html = `
 			<div style="
 				background-image: url(${el.bgImage});
