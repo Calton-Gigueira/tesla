@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tesla</title>
+  <title>Eletric Cars, Solar & Clean Energy | Tesla</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/models.css">
   <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/menu.css">
 </head> 
   <body>
     <div class="model-y">
@@ -17,7 +19,65 @@
         </div>
         <div>
           <menu>
-            <button>Menu</button>
+            <button class="menu-button">Menu</button>
+            <nav class="hidden-menu">
+              <div id="close-div">
+                <a href="javascript:void(0)" class="close-button">&times;</a>
+              </div>
+              <div id="menu-items">
+                <a href="">
+                  Vehicles 
+                  <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                  </span>
+                </a>
+                <a href="">
+                  Energy
+                  <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                  </span>
+                </a>
+                <a href="">
+                  Charging
+                  <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                  </span>
+                </a>
+                <a href="">
+                  Discover
+                  <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                  </span>
+                </a>
+                <a href="">Shop</a>
+                <a href="">Support</a>
+
+                <a href="" class="sb">
+                  <div>
+                    <div class="before-span">
+                      <span class="material-symbols-outlined">
+                        language
+                      </span>
+                    </div>
+                    <p>United States</p>
+                  </div>
+                  <div>
+                    <span class="material-symbols-outlined">
+                      arrow_forward_ios
+                    </span>
+                  </div>
+                </a>
+
+                <a href="" class="sb">
+                  <div class="before-span">
+                    <span class="material-symbols-outlined">
+                      account_circle
+                    </span>
+                  </div>
+                  <p>Account</p>
+                </a>
+              </div>
+            </nav>
           </menu>
         </div>
       </header>
@@ -69,5 +129,6 @@
 
     <script type="module" src="scripts/index.js"></script>
     <script type="module" src="scripts/footer.js"></script>
+    <script type="module" src="scripts/menu.js"></script>
   </body>
 </html>

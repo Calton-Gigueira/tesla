@@ -10,6 +10,7 @@
 
 body {
     font-family: Roboto;
+    overflow-x: hidden;
 }
 
 .models {
@@ -30,7 +31,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 25px;
 }
 
 menu button {
@@ -147,6 +148,11 @@ sup {
 }
 
 @media screen and (min-width: 769px) {
+
+    .buttons {
+        margin-top: 150px;
+    }
+
     .buttons,
     .truck-buttons {
         display: grid;
